@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.tost-message {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background-color: chartreuse;
+    color: black;
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    z-index: 999;
+
+}
+
+.tost-message-slide-in {
+    animation: tost-animation-in 0.5s ease-in;
+}
+
+.tost-message-slide-out {
+    animation: tost-animation-out 0.5s ease-in;
+}
+
+
+
+@keyframes tost-animation-in {
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes tost-animation-out {
+    from {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    to {
+        transform: translatex(200px);
+        opacity: 0;
+    }
+}
