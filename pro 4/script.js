@@ -38,9 +38,6 @@ function main() {
     });
 }
 
-
-
-
 function rgbCol() {
     var r = Math.floor(Math.random() * 255);
     var g = Math.floor(Math.random() * 255);
@@ -65,7 +62,13 @@ function copiedTostMessage(mesg) {
         })
     });
 
-
-
     document.body.appendChild(div);
+}
+/**
+ * 
+ * @param {string} color 
+ */
+function isVsliidHex(color){
+    if(color.length != 7) return false;
+    if(color[0]!='#') return false;
 }
