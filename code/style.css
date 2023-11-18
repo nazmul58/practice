@@ -1,103 +1,68 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*, *::before,*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: montserrat;
+    list-style: none;
+    text-decoration: none;
 }
 
-header {
+/*global color*/
+.co-wite > *{
+    color: white;
+}
+
+
+/* grid css  */
+.container-fluid{
     width: 100%;
-    /* background-color: rgb(255, 255, 255); */
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    transition: .5s;
-
+    height: 80vh;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-50 {
+    width: calc(50% - 15px);
+  }
+.container > *{
+    flex-grow: 1;
 }
 
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 100%;
-    height: 200hv;
-}
 
-html {
-    scroll-behavior: smooth;
-}
-
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(./img/image1.jpg);
-
+.header-bd-image{
+    background-image: url(./img/background-sec.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-section {
-    background-color: azure;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    text-transform: uppercase;
-}
+/* nav section */
+.nav-left{
+    padding: 30px;
 
-.about {
-    background-color: rgb(91, 133, 119);
 }
+.nav-right{
+    padding: 30px;
 
-.Contact {
-    background-color: rgb(87, 116, 197);
 }
-
-nav {
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    transition: .5s;
-}
-
-.logo {
-    text-decoration: none;
-    font-size: 24px;
-    text-transform: uppercase;
-    padding: 10px 20px;
+.nav-item ul li a{
     color: white;
-}
-
-header nav ul li {
-
-    text-transform: uppercase;
-    list-style: none;
     display: inline-block;
-    transition: .5s;
-    position: relative;
-    margin-right: 10px;
+    padding-top: 10px;
 }
-
-header nav ul li a {
-    text-decoration: none;
-    transition: .5s;
-    position: relative;
+.nav-item ul li a{
     color: white;
+    display: inline-block;
+    padding-top: 10px;
 }
-
-.sticky {
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 2px 3px rgb(50, 51, 53);
+.nav-right ul li a{
+    color: white;
+    display: inline-block;
+    padding-top: 10px;
 }
-
-.sticky .logo {
-    color: black;
-}
-
-.sticky nav ul li a {
-    color: black;
+.main-right image{
+size: ;
 }
