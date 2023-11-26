@@ -1,0 +1,47 @@
+{
+    "students": [
+        {
+            "name": "Anisul Islam",
+            "middlename": null,
+            "age": 24,
+            "cgpa": 4.5,
+            "isRegistered": true,
+            "languages": [
+                "banglii",
+                "English"
+            ],
+            "friends": [
+                {
+                    "name": "imam",
+                    "age": 45
+                },
+                {
+                    "name": "hossain",
+                    "age": 34
+                }
+            ]
+        },
+        {
+            "name": "Rahat Islam",
+            "middlename": null,
+            "age": 23,
+            "cgpa": 3.5,
+            "isRegistered": true,
+            "languages": [
+                "banglii",
+                "English",
+                "Hindi"
+            ],
+            "friends": [
+                {
+                    "name": "shakil",
+                    "age": 33
+                },
+                {
+                    "name": "nazmul",
+                    "age": 32
+                }
+            ]
+        }
+    ]
+}
