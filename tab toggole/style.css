@@ -1,29 +1,65 @@
-.tab{
+.tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     display: flex;
+
     gap: 5px;
+    border-top: none;
+    gap: 0;
 }
 
-.tab button{
-    background-color: inherit;
+.tab button {
+
     border: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
 
-    
+
 }
 
-.tab button:hover{
+.tab button:hover {
     background-color: #ddd;
 }
 
-.tabcontent{
+.tabcontent {
     padding: 6px 12px;
     border: 1px solid #ccc;
-    border-top: none;
+    border-bottom: none;
     display: none;
+    text-align: center;
+    color: white;
+}
+.tabcontent h3{
+    font-size: 35px;
+}
+.flex {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#London {
+    background-color: red;
+}
+
+#paris {
+    background-color: green;
+}
+
+#Tokyo {
+    background-color: burlywood;
+    color: black;
+}
+.tablinks{
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }

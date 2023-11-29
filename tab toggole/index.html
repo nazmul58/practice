@@ -9,18 +9,26 @@
 </head>
 
 <body>
-    <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'London')" >London</button>
-        <button class="tablinks">Paris</button>
-        <button class="tablinks">Tokyo</button>
-    </div>
-    <div id="London" class="tabcontent">
-        <h3>London</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugiat.</p>
-    </div>
-    <div id="paris" class="tabcontent">
-        <h3>London</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugiat.</p>
+    <div class="flex">
+        <div class="tab ">
+            <button id="defaultOpen" class="tablinks" onmouseover="openCity(this, 'London', 'red')">London</button>
+            <button class="tablinks" onmouseover="openCity(this, 'paris', 'green')">Paris</button>
+            <button class="tablinks" onmouseover="openCity(this, 'Tokyo', 'burlywood')">Tokyo</button>
+        </div>
+        <div class="content_area flex">
+            <div id="London" class="tabcontent">
+                <h3>London</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugiat.</p>
+            </div>
+            <div id="paris" class="tabcontent">
+                <h3>Paish</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugiat.</p>
+            </div>
+            <div id="Tokyo" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugiat.</p>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

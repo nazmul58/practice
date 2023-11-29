@@ -175,3 +175,31 @@ font-size: 24px;
 .quality-inner-right{
     gap: 15px;
 }
+/*card desigh*/
+.card{
+    width: 230px;
+    padding: 40px 35px;
+    gap: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.card img{
+    width: 60px;
+    background: #E74040;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card hr{
+    width: 87px;
+    height: 3px;
+    background: #FF6551;
+}
+.cards{
+    gap: 30px;
+    justify-content: space-between;
+}
+.card-padding{
+    padding-top: 48px;
+}
